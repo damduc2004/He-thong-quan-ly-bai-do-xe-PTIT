@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1233</width>
+    <height>806</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>HỆ THỐNG QUẢN LÝ BÃI XE PTIT</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="tinh_nang">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>490</y>
+      <width>1081</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>TÍNH NĂNG</string>
+    </property>
+    <widget class="QPushButton" name="them_xe">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>THÊM XE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="kiem_tra">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>40</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>KIỂM TRA</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="thu_nhap">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>40</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>THU NHẬP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>190</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>THOÁT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="soluongxe">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>40</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>SỐ LƯỢNG XE TRONG BÃI</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="car">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>90</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>CAR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="motorbike">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>130</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>MOTORBIKE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bicycle">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>170</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>BICYCLE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="number_car">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>90</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="number_moto">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>130</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="number_bicycle">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>170</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>60</y>
+      <width>991</width>
+      <height>411</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1233</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

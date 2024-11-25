@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1397</width>
+    <height>797</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="thoat_check">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>320</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>THOÁT</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>671</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Check id</string>
+    </property>
+    <widget class="QLabel" name="ID">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ID :</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="text_id">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="check_id">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>30</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>CHECK ID</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>671</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Check camera</string>
+    </property>
+    <widget class="QLabel" name="number_plate">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>NUMBER PLATE :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="text_np">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>90</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="check_plate">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>30</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>CHECK PLATE</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="CAMERA">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>20</y>
+      <width>581</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Camera</string>
+    </property>
+    <widget class="QLabel" name="video_label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>521</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>                                          Video Feed</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="result_label">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>450</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Detected: None</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="start">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>500</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>START</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stop">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>500</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>STOP</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1397</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
